@@ -1,3 +1,5 @@
+package myVersion;
+
 public class CurrentConditionsDisplay implements Observer, Display{
 
     private float temperature,
