@@ -1,6 +1,6 @@
-package com.masharo.coffee;
+package com.masharo.starbazz.coffee;
 
-import com.masharo.Beverage;
+import com.masharo.starbazz.Beverage;
 
 public class Decaf extends Beverage {
 

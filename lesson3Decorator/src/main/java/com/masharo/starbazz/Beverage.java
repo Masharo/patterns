@@ -1,4 +1,4 @@
-package com.masharo;
+package com.masharo.starbazz;
 
 public abstract class Beverage {
 

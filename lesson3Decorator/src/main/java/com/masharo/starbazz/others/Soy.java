@@ -1,7 +1,7 @@
-package com.masharo.others;
+package com.masharo.starbazz.others;
 
-import com.masharo.Beverage;
-import com.masharo.CondimentDecorator;
+import com.masharo.starbazz.Beverage;
+import com.masharo.starbazz.CondimentDecorator;
 
 public class Soy extends CondimentDecorator {
     public Soy(Beverage beverage) {

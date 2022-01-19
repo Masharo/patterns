@@ -1,11 +1,11 @@
-package com.masharo;
+package com.masharo.starbazz;
 
-import com.masharo.coffee.DarkRoast;
-import com.masharo.coffee.Espresso;
-import com.masharo.coffee.HouseBlend;
-import com.masharo.others.Mocha;
-import com.masharo.others.Soy;
-import com.masharo.others.Whip;
+import com.masharo.starbazz.coffee.DarkRoast;
+import com.masharo.starbazz.coffee.Espresso;
+import com.masharo.starbazz.coffee.HouseBlend;
+import com.masharo.starbazz.others.Mocha;
+import com.masharo.starbazz.others.Soy;
+import com.masharo.starbazz.others.Whip;
 
 public class TestDrive {
     public static void main(String[] args) {
