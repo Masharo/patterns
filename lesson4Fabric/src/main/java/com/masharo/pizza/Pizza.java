@@ -1,12 +1,19 @@
 package com.masharo.pizza;
 
+import com.masharo.pizza.ingredient.*;
+
 import java.util.ArrayList;
 
-public class Pizza {
+public abstract class Pizza {
 
-    protected String name,
-                     dough,
-                     sauce;
+    protected Dough dough;
+    protected Sauce sauce;
+    protected Cheese cheese;
+    protected Veggies[] veggies;
+    protected Pepperoni pepperoni;
+    protected Clams clams;
+
+    protected String name;
 
     protected ArrayList<String> toppings;
 
@@ -14,19 +21,12 @@ public class Pizza {
         this.toppings = new ArrayList<>();
     }
 
-    public void prepare() {
-        System.out.println("Preparing " + name);
-        System.out.println("Tossing dough...");
-        System.out.println("Adding sauce...");
-        System.out.println("Adding toppings: ");
-        for (String topping : toppings) {
-            System.out.println(" " + topping);
-        }
-    }
+    public abstract void prepare();
 
     public void bake() {
         System.out.println("Bake for 25 minutes at 350");
     }
+
     public void cut() {
         System.out.println("Cutting the pizza into diagonal slices");
     }
