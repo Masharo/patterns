@@ -1,11 +1,13 @@
 package com.masharo.pizza;
 
 import com.masharo.pizza.ingredient.*;
+import com.masharo.pizza.ingredientFactory.PizzaIngredientFactory;
 
 import java.util.ArrayList;
 
 public abstract class Pizza {
 
+    protected PizzaIngredientFactory ingredientFactory;
     protected Dough dough;
     protected Sauce sauce;
     protected Cheese cheese;
@@ -17,8 +19,9 @@ public abstract class Pizza {
 
     protected ArrayList<String> toppings;
 
-    public Pizza() {
+    public Pizza(PizzaIngredientFactory ingredientFactory) {
         this.toppings = new ArrayList<>();
+        this.ingredientFactory = ingredientFactory;
     }
 
     public abstract void prepare();

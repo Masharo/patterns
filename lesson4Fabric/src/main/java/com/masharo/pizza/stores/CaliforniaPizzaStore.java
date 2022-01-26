@@ -2,11 +2,15 @@ package com.masharo.pizza.stores;
 
 import com.masharo.pizza.Pizza;
 import com.masharo.pizza.PizzaStore;
+import com.masharo.pizza.ingredientFactory.PizzaIngredientFactory;
 import com.masharo.pizza.pizzaCalifornia.*;
 
 public class CaliforniaPizzaStore extends PizzaStore {
+
     @Override
     public Pizza createPizza(String type) {
+
+
         switch (type) {
             case "cheese":
                 return new CaliforniaStyleCheese();

@@ -1,8 +1,13 @@
 package com.masharo.pizza;
 
+import com.masharo.pizza.ingredientFactory.NYPizzaIngredientFactory;
+import com.masharo.pizza.ingredientFactory.PizzaIngredientFactory;
+
 public abstract class PizzaStore {
 
     public Pizza orderPizza(String type) {
+
+        PizzaIngredientFactory ingredientFactory = new NYPizzaIngredientFactory();
 
         Pizza pizza = createPizza(type);
 

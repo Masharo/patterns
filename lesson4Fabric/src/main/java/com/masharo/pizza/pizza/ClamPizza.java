@@ -1,12 +1,11 @@
-package com.masharo.pizza.pizzaCalifornia;
+package com.masharo.pizza.pizza;
 
 import com.masharo.pizza.Pizza;
 import com.masharo.pizza.ingredientFactory.PizzaIngredientFactory;
 
-@Deprecated
-public class CaliforniaStyleVeggie extends Pizza {
+public class ClamPizza extends Pizza {
 
-    public CaliforniaStyleVeggie(PizzaIngredientFactory ingredientFactory) {
+    public ClamPizza(PizzaIngredientFactory ingredientFactory) {
         super(ingredientFactory);
     }
 

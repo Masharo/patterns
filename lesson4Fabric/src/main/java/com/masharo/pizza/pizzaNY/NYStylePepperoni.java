@@ -1,6 +1,17 @@
 package com.masharo.pizza.pizzaNY;
 
 import com.masharo.pizza.Pizza;
+import com.masharo.pizza.ingredientFactory.PizzaIngredientFactory;
 
+@Deprecated
 public class NYStylePepperoni extends Pizza {
+
+    public NYStylePepperoni(PizzaIngredientFactory ingredientFactory) {
+        super(ingredientFactory);
+    }
+
+    @Override
+    public void prepare() {
+
+    }
 }
