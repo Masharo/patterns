@@ -1,4 +1,4 @@
-package com.masharo.pizza.ingredientFactory;
+package com.masharo.pizza;
 
 import com.masharo.pizza.ingredient.Pepperoni;
 import com.masharo.pizza.ingredient.*;

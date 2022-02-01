@@ -1,7 +1,7 @@
 package com.masharo.pizza.pizzaChicago;
 
 import com.masharo.pizza.Pizza;
-import com.masharo.pizza.ingredientFactory.PizzaIngredientFactory;
+import com.masharo.pizza.PizzaIngredientFactory;
 
 @Deprecated
 public class ChicagoStyleVeggie extends Pizza {

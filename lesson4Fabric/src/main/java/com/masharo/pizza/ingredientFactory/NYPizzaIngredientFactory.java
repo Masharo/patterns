@@ -1,5 +1,6 @@
 package com.masharo.pizza.ingredientFactory;
 
+import com.masharo.pizza.PizzaIngredientFactory;
 import com.masharo.pizza.ingredient.Pepperoni;
 import com.masharo.pizza.ingredient.*;
 import com.masharo.pizza.ingredient.cheese.ReggianoCheese;

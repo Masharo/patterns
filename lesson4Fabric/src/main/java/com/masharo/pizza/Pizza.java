@@ -1,7 +1,6 @@
 package com.masharo.pizza;
 
 import com.masharo.pizza.ingredient.*;
-import com.masharo.pizza.ingredientFactory.PizzaIngredientFactory;
 
 import java.util.ArrayList;
 

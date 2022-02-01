@@ -3,8 +3,11 @@ package com.masharo.pizza.stores;
 import com.masharo.pizza.Pizza;
 import com.masharo.pizza.PizzaStore;
 import com.masharo.pizza.ingredientFactory.NYPizzaIngredientFactory;
-import com.masharo.pizza.ingredientFactory.PizzaIngredientFactory;
-import com.masharo.pizza.pizzaNY.*;
+import com.masharo.pizza.PizzaIngredientFactory;
+import com.masharo.pizza.pizza.CheesePizza;
+import com.masharo.pizza.pizza.ClamPizza;
+import com.masharo.pizza.pizza.PepperoniPizza;
+import com.masharo.pizza.pizza.VeggiePizza;
 
 public class NYPizzaStore extends PizzaStore {
 
@@ -15,13 +18,13 @@ public class NYPizzaStore extends PizzaStore {
 
         switch (type) {
             case "cheese":
-                return new NYStyleCheese();
+                return new CheesePizza(ingredientFactory);
             case "clam":
-                return new NYStyleClam();
+                return new ClamPizza(ingredientFactory);
             case "pepperoni":
-                return new NYStylePepperoni();
+                return new PepperoniPizza(ingredientFactory);
             case "veggie":
-                return new NYStyleVeggie();
+                return new VeggiePizza(ingredientFactory);
         }
 
         return null;
