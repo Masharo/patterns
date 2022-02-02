@@ -1,6 +1,5 @@
-package com.masharo.lesson4Factory;
+package com.masharo.lesson4Factory.eazyFactory;
 
-import com.masharo.lesson4Factory.eazyFactory.PizzaStore;
 import com.masharo.lesson4Factory.eazyFactory.pizza.Pizza;
 
 public class TestDrive {
