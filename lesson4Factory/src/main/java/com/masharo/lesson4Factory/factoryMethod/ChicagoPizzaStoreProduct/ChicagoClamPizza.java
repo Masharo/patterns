@@ -1,8 +1,8 @@
 package com.masharo.lesson4Factory.factoryMethod.ChicagoPizzaStoreProduct;
 
-public class ClamPizza extends ChicagoPizzaStyle {
+public class ChicagoClamPizza extends ChicagoPizzaStyle {
 
-    public ClamPizza() {
+    public ChicagoClamPizza() {
         super("Clam", "Clam", "littleneck clams", "shallot", "stem", "sprig");
     }
 }

@@ -1,10 +1,8 @@
 package com.masharo.lesson4Factory.factoryMethod.NYPizzaStoreProduct;
 
-import com.masharo.lesson4Factory.factoryMethod.Pizza;
+public class NYClamPizza extends NYPizzaStyle {
 
-public class ClamPizza extends Pizza {
-
-    public ClamPizza() {
+    public NYClamPizza() {
         super("Clam", "Clam", "littleneck clams", "shallot", "stem", "sprig");
     }
 }

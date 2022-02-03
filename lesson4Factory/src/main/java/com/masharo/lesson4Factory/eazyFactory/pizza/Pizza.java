@@ -11,8 +11,9 @@ public abstract class Pizza {
 
     protected List<String> toppings;
 
-    protected Pizza(String name, String... toppings) {
+    protected Pizza(String name, String sauce, String... toppings) {
         this.name = name;
+        this.sauce = sauce;
         this.toppings = Arrays.asList(toppings);
     }
 

@@ -11,8 +11,9 @@ public abstract class Pizza {
 
     protected List<String> toppings;
 
-    protected Pizza(String name, String... toppings) {
+    protected Pizza(String name, String sauce, String... toppings) {
         this.name = name;
+        this.sauce = sauce;
         this.toppings = Arrays.asList(toppings);
     }
 
@@ -26,13 +27,9 @@ public abstract class Pizza {
         }
     }
 
-    public void bake() {
-        System.out.println("Bake for 25 minutes at 350");
-    }
+    public abstract void bake();
 
-    public void cut() {
-        System.out.println("Cutting the pizza into diagonal slices");
-    }
+    public abstract void cut();
 
     public void box() {
         System.out.println("Place pizza in official PizzaStore box");

@@ -1,8 +1,8 @@
 package com.masharo.lesson4Factory.factoryMethod.ChicagoPizzaStoreProduct;
 
-public class CheesePizza extends ChicagoPizzaStyle {
+public class ChicagoCheesePizza extends ChicagoPizzaStyle {
 
-    public CheesePizza() {
+    public ChicagoCheesePizza() {
         super("Cheese", "White", "Mozzarella");
     }
 }
